@@ -1,0 +1,24 @@
+2022-07-15 18:28:07.304  INFO 14572 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Starting EmployeePayrollApplication using Java 17.0.1 on DESKTOP-LPHCEAQ with PID 14572 (C:\Users\ADMIN\IdeaProjects\EmployeePayrollApplication\target\classes started by ADMIN in C:\Users\ADMIN\IdeaProjects\EmployeePayrollApplication)
+2022-07-15 18:28:07.313 DEBUG 14572 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-07-15 18:28:07.314  INFO 14572 --- [restartedMain] c.b.e.EmployeePayrollApplication         : The following 1 profile is active: "dev"
+2022-07-15 18:28:07.386  INFO 14572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-15 18:28:07.387  INFO 14572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-15 18:28:08.409  INFO 14572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-15 18:28:08.508  INFO 14572 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2022-07-15 18:28:09.228  INFO 14572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-15 18:28:09.230  INFO 14572 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.33] using APR version [1.7.0].
+2022-07-15 18:28:09.231  INFO 14572 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-15 18:28:09.231  INFO 14572 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-15 18:28:09.255  INFO 14572 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1o  3 May 2022]
+2022-07-15 18:28:09.274  INFO 14572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-15 18:28:09.275  INFO 14572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-07-15 18:28:09.393  INFO 14572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-15 18:28:09.394  INFO 14572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2006 ms
+2022-07-15 18:28:10.017  INFO 14572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-15 18:28:10.652  INFO 14572 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-15 18:28:11.660  INFO 14572 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-15 18:28:12.115  WARN 14572 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-15 18:28:12.551  INFO 14572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-15 18:28:12.611  INFO 14572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-15 18:28:12.625  INFO 14572 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Started EmployeePayrollApplication in 6.048 seconds (JVM running for 9.811)
+2022-07-15 18:28:12.628  INFO 14572 --- [restartedMain] c.b.e.EmployeePayrollApplication         : Employee Payroll App Started in { } Environment
